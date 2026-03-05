@@ -1,0 +1,22 @@
+# Python Virtual Environment
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables (Keep API keys secret!)
+.env
+
+# Auto-generated Physics Exports
+# (We ignore the files inside, but keep the folder structure)
+assets/exports/*
+!assets/exports/.gitkeep
+assets/logs/*
+!assets/logs/.gitkeep
+
+# OS generated files
+.DS_Store
+Thumbs.db
